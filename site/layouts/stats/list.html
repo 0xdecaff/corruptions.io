@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="card mb-4">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/chart1-4.png"> stat(s*)</h4>
+    </div>
+    <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;" hx-ext="client-side-templates">
+      
+      <form
+        hx-get="https://corruption-api.vercel.app/api/corruption/:id"
+        hx-target="#results"
+        hx-swap="innerHTML"
+        mustache-template="foo">
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label"><img src="/assets/icons/search_directory-1.png" class="icon-16-4"> id</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-95" name="id" id="id">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">
+                  find
+                </button>
+            </div>
+        </div>
+      </form>
+
+      <!-- InnerHTML of this form gets filled with the template below -->
+      <form id="results"></form>
+
+      {{ safeHTML `
+      <template id="foo">
+
+        <div class="form-group row">
+          <label for="corruption" class="col-sm-2 col-form-label">😈 corruption</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="corruption" value="{{corruption}}" disabled>
+          </div>
+          <label for="savedXP" class="col-sm-2 col-form-label">📈 saved xp (<a href="https://etherscan.io/block/{{insightMap.lastSavedBlock}}">{{insightMap.lastSavedBlock}}</a>)</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="savedXP" value="{{insightMap.savedXP}}" disabled>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="insight" class="col-sm-2 col-form-label">✨ insight</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-95" id="insight" value="{{insight}}" disabled>
+          </div>
+          <label for="unsavedInsight" class="col-sm-2 col-form-label">💾 unsaved</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-95" id="unsavedInsight" value="{{unsavedInsight}}" disabled>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="phrase" class="col-sm-2 col-form-label">📰 phrase</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="phrase" value="{{phrase}}" disabled>
+          </div>
+          <label for="hidden" class="col-sm-2 col-form-label">🕵 hidden</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="hidden" value="{{hiddenAttribute}}" disabled>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="corruptor" class="col-sm-2 col-form-label">👾 corruptor</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="corruptor" value="{{corruptor}}" disabled>
+          </div>
+          <label for="border" class="col-sm-2 col-form-label">🖼 border</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="border" value="{{border}}" disabled>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="checker" class="col-sm-2 col-form-label">🏁 checker</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-95" id="checker" value="{{checker}}" disabled>
+          </div>
+        </div>
+      </template>
+      ` }}
+
+    </div>
+  </div>
+</div>
+
+<script>
+  document.body.addEventListener('htmx:configRequest', function (evt) {
+    Object.keys(evt.detail.headers).forEach(function (key) {
+      delete evt.detail.headers[key];
+    });
+
+    let pathWithParameters = event.detail.path.replace(/:([A-Za-z0-9_]+)/g, function (_match, parameterName) {
+      let parameterValue = event.detail.parameters[parameterName];
+      delete event.detail.parameters[parameterName];
+
+      return parameterValue;
+    });
+
+    event.detail.path = pathWithParameters;
+  });
+</script>
+
+{{ end }}

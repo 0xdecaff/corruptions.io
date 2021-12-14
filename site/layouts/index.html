@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+
+        <!-- Title Cover Row -->
+        <div class="col-md-8 text-center">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/help_book_big-0.png"> welcome</h4>
+                </div>
+                <div class="card-body windows-scrollbar d-flex justify-content-center" style="overflow-y: scroll; height: 75vh;">
+                    {{ range $cover := first 1 (shuffle .Params.covers) }}
+                    <img src="/assets/covers/{{ $cover }}" onclick="document.location.href='https://twitter.com/fabianstelzer'">
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Webamp -->
+        <div class="col-md-4 text-center">
+            <div id="mp3" style="min-height: 400px"></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+<script>
+    // PRs welcome for community created tracks that fit the aesthetic :)
+    // TODO: show this window on all pages?
+    const Webamp = window.Webamp;
+    new Webamp({
+        initialTracks: [{
+            metaData: {
+                title: "track 8"
+            },
+            url: "assets/Study-and-Relax.mp3",
+            duration: 223
+        }],
+    }).renderWhenReady(document.getElementById('mp3'));
+</script>   
+
+{{ end }}

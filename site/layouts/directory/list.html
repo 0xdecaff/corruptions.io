@@ -1,0 +1,179 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="card mb-4">
+        <div class="card-header">
+        <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/directory_explorer-2.png"> directory</h4>
+        </div>
+        <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3" align="center">
+                        <img type="button" data-toggle="modal" data-target="#leaderboardModal" src="/assets/icons/globe_map-0.png" style="width: 100px">
+                        <p>global_leaderboard</p>
+                    </div>
+                    <div class="col-xl-3" align="center">
+                        <img type="button" data-toggle="modal" data-target="#divisionsModal" src="/assets/icons/network_three_pcs-0.png" style="width: 100px">
+                        <p>divisions</p>
+                    </div>
+                    <div class="col-xl-3" align="center">
+                        <img type="button" data-toggle="modal" data-target="#daoModal" src="/assets/icons/keys-5.png" style="width: 100px">
+                        <p>dao_multisig</p>
+                    </div>
+                    {{ range sort .Site.Data.deviation_registry.deviations ".index" }}
+                    <div class="col-xl-3" align="center">
+                        <img type="button" data-toggle="modal" data-target="#{{.name}}Modal" src="/assets/icons/directory_closed-5.png" style="width: 100px">
+                        <p>{{.name}}</p>
+                    </div>
+                    {{ end }}
+                    <div class="col-xl-3" align="center">
+                        <img type="button" data-toggle="modal" data-target="#comingSoonModal" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
+                        <p>next_drop</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+  // Fallback to a png first and a placeholder last
+  // TODO: use this for more than just the dao multisig when others start to be pngs
+  function tryPNG(image, id) {
+    image.onerror = "this.onerror = '/assets/icons/kodak_imaging_file-0.png'";
+    image.src = `/assets/corruptions/${id}.png`
+    image.width = 250;
+    image.parentNode.parentNode.className = "col-12";
+  }
+</script>
+
+<!-- Leaderboard modal -->
+<div class="modal fade" id="leaderboardModal" tabindex="-1" role="dialog" aria-labelledby="leaderboardModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leaderboardModalLabel"></h5>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+        {{ $descendingInsight := sort .Pages "Params.precise" "desc" }}
+        {{ range $index, $element := $descendingInsight}}
+            <p>
+                <b>{{ add $index 1 }}</b>: 
+                <a href="https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/{{ $element.Params.id }}">{{ $element.Params.id }}</a>
+                @ <strong style="color: purple">{{ $element.Params.insight }}</strong> <small>(unsaved {{ $element.Params.precise | truncate 9 }})</small>
+            </p>
+        {{ end }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Divisions modal -->
+<div class="modal fade" id="divisionsModal" tabindex="-1" role="dialog" aria-labelledby="divisionsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="divisionsModalLabel">divisions (ranked by insight)</h6>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+        {{ range $division := .Site.Data.divisions.divisions}}
+          <h5>{{ $division.name }}</h5>
+          <hr>
+          <table>
+          {{ range $team := sort $division.teams "insight" "desc" }}
+            <tr>
+              <td><pre>  {{ $team.name }}</pre></td>
+              <td><pre>  {{ $team.insight }}</pre></td>
+            </tr>
+          {{ end }}
+          </table>
+        {{ end }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dao modal -->
+<div class="modal fade" id="daoModal" tabindex="-1" role="dialog" aria-labelledby="daoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="daoModalLabel">dao_multisig</h6>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar container" style="overflow-y: scroll; height: 75vh;">
+        <div class="row">
+          {{ range $i := .Site.Data.dao_multisig.corruptions }}
+          <div class="col-4" align="center">
+            <a href="https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/{{ $i }}" style="color: black">
+              <img type="button" src="/assets/corruptions/{{ $i }}.svg" onerror="tryPNG(this, {{ $i }})">
+              <br>
+              {{ $i }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Deviation modals -->
+{{ range sort .Site.Data.deviation_registry.deviations }}
+<div class="modal fade" id="{{.name}}Modal" tabindex="-1" role="dialog" aria-labelledby="{{.name}}ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="{{.name}}ModalLabel">{{.name}}</h6>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar container" style="overflow-y: scroll; height: 75vh;">
+        <div class="row">
+          <div class="col-4" align="center">
+            <a href="https://etherscan.io/address/{{ .contractAddress }}#contracts" style="color: black">
+              <img type="button" src="/assets/icons/kodak_imaging_file-0.png" style="width: 100px">
+              <br>
+              contract
+            </a>
+          </div>
+          {{ range $element := (index $.Site.Data.deviations .name | default slice) }}
+          <div class="col-4" align="center">
+            <a href="https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/{{ $element }}" style="color: black">
+              <img type="button" src="/assets/corruptions/{{ $element }}.svg" onerror="this.src = '/assets/icons/kodak_imaging_file-0.png'" style="width: 100px">
+              <br>
+              {{ $element }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+{{ end }}

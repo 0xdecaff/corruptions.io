@@ -1,0 +1,209 @@
+{
+  "divisions": [
+    {
+      "name": "\ud83d\udcf0 phrases",
+      "teams": [
+        {
+          "name": "CORRUPTION",
+          "insight": 15729.0
+        },
+        {
+          "name": "TECHNOLOGY",
+          "insight": 13334.0
+        },
+        {
+          "name": "TEMPTATION",
+          "insight": 15089.0
+        },
+        {
+          "name": "INDIVIDUAL",
+          "insight": 14521.0
+        },
+        {
+          "name": "EVERYTHING",
+          "insight": 15777.0
+        },
+        {
+          "name": "ILLUMINATI",
+          "insight": 15030.0
+        },
+        {
+          "name": "GENERATION",
+          "insight": 16021.0
+        },
+        {
+          "name": "EVERYWHERE",
+          "insight": 14368.0
+        },
+        {
+          "name": "REVELATION",
+          "insight": 15044.0
+        },
+        {
+          "name": "UNDERWORLD",
+          "insight": 13995.0
+        }
+      ]
+    },
+    {
+      "name": "\ud83d\udd75 hidden",
+      "teams": [
+        {
+          "name": "EVERYWHERE",
+          "insight": 24479.0
+        },
+        {
+          "name": "UNDERWORLD",
+          "insight": 25276.0
+        },
+        {
+          "name": "TEMPTATION",
+          "insight": 25165.0
+        },
+        {
+          "name": "CORRUPTION",
+          "insight": 25217.0
+        },
+        {
+          "name": "ILLUMINATI",
+          "insight": 24223.0
+        },
+        {
+          "name": "REVELATION",
+          "insight": 24548.0
+        }
+      ]
+    },
+    {
+      "name": "\ud83d\uddbc borders",
+      "teams": [
+        {
+          "name": "$",
+          "insight": 13875.0
+        },
+        {
+          "name": "/",
+          "insight": 13527.0
+        },
+        {
+          "name": ":",
+          "insight": 13570.0
+        },
+        {
+          "name": "8",
+          "insight": 13013.0
+        },
+        {
+          "name": "%",
+          "insight": 14093.0
+        },
+        {
+          "name": "?",
+          "insight": 14789.0
+        },
+        {
+          "name": "#",
+          "insight": 12411.0
+        },
+        {
+          "name": "^",
+          "insight": 11590.0
+        },
+        {
+          "name": "_",
+          "insight": 14862.0
+        },
+        {
+          "name": "|",
+          "insight": 13035.0
+        },
+        {
+          "name": "~",
+          "insight": 14104.0
+        }
+      ]
+    },
+    {
+      "name": "\ud83d\udc7e corruptors",
+      "teams": [
+        {
+          "name": "8",
+          "insight": 13523.0
+        },
+        {
+          "name": "#",
+          "insight": 13143.0
+        },
+        {
+          "name": "~",
+          "insight": 14410.0
+        },
+        {
+          "name": "%",
+          "insight": 13622.0
+        },
+        {
+          "name": ":",
+          "insight": 13366.0
+        },
+        {
+          "name": "^",
+          "insight": 13358.0
+        },
+        {
+          "name": "?",
+          "insight": 12913.0
+        },
+        {
+          "name": "_",
+          "insight": 13360.0
+        },
+        {
+          "name": "$",
+          "insight": 14320.0
+        },
+        {
+          "name": "/",
+          "insight": 13359.0
+        },
+        {
+          "name": "|",
+          "insight": 13534.0
+        }
+      ]
+    },
+    {
+      "name": "\ud83c\udfc1 checkers",
+      "teams": [
+        {
+          "name": "=",
+          "insight": 20103.0
+        },
+        {
+          "name": "-",
+          "insight": 20405.0
+        },
+        {
+          "name": "|",
+          "insight": 20736.0
+        },
+        {
+          "name": ":",
+          "insight": 21669.0
+        },
+        {
+          "name": "\\",
+          "insight": 20820.0
+        },
+        {
+          "name": "+",
+          "insight": 22217.0
+        },
+        {
+          "name": "~",
+          "insight": 22958.0
+        }
+      ]
+    }
+  ]
+}

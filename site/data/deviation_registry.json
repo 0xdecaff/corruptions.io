@@ -1,0 +1,76 @@
+{
+  "deviations": [
+    {
+      "id": "0x4f2b0818aac0389a079203fce848d00a7218bc51273bcf8d4e49f44d0a4f02ca",
+      "created": "2021-11-23 21:41:30+00:00",
+      "index": 1,
+      "name": "WILTEDROSE",
+      "contractAddress": "0x4500f6e46d485b62ed35926052f04c04f627f637",
+      "extraData": 0
+    },
+    {
+      "id": "0x2874ecf28cad432fa02ae6017782cdcb0de2f4998389ee761a027e892c029d9a",
+      "created": "2021-11-29 14:52:13+00:00",
+      "index": 3,
+      "name": "VIVICATION",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0x43998c5eb0be516ce02ae59780574ba2b621117ab3f66c50a8ef13be5c9d46e4",
+      "created": "2021-11-29 14:52:13+00:00",
+      "index": 4,
+      "name": "STRONGHOLD",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0xa7e06bc7c75817e8b5fdedd647322755c16319b591a1d39e3ec84dabb48f816b",
+      "created": "2021-11-29 14:52:13+00:00",
+      "index": 2,
+      "name": "CONTINUITY",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0x9f34219efaa650af4e2b5214518b997aa3ac03bd005727ee9fad54b9a165c7d2",
+      "created": "2021-11-29 14:53:31+00:00",
+      "index": 5,
+      "name": "APOTHEOSIS",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0x9e5104e36dd2df2726f7b1d4a0a150867b361277fbadc30de61ce606da5a44dd",
+      "created": "2021-11-29 14:53:41+00:00",
+      "index": 7,
+      "name": "LACERATION",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0xa5c612c9310b550cafff513f5fc90151b102001ce6f58c2fe2c0837c77f270ef",
+      "created": "2021-11-29 14:53:41+00:00",
+      "index": 6,
+      "name": "AUTOMATION",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0xd9e38e2077e5f2cc96c3cb95d84ab5c26149a5cb1733604ca95c4e688722c5e2",
+      "created": "2021-11-29 14:54:39+00:00",
+      "index": 8,
+      "name": "FENESTELLA",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    },
+    {
+      "id": "0xf8baa0475667edbedd13e2968960aeeaa358134754dbb66bc3fb912c14709f6a",
+      "created": "2021-11-29 14:54:39+00:00",
+      "index": 9,
+      "name": "SACROSANCT",
+      "contractAddress": "0x6a00bc9ed4dce14ed7ba72d01da6ed4746c5792e",
+      "extraData": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "id": "0xf6488dac07a392d3318c50c3d704ecd0e882197f14eadb64f0f3eebf08e1ecd0",
+      "created": "2021-11-23 01:36:13+00:00",
+      "topic": "MWI",
+      "content": "The many-worlds interpretation implies that there are very many universes, perhaps infinitely many. It is one of many\u00a0multiverse\u00a0hypotheses in\u00a0physics\u00a0and\u00a0philosophy. MWI views time as a many-branched tree, wherein every possible quantum outcome is realised. This is intended to resolve some\u00a0paradoxes\u00a0of\u00a0quantum theory, such as the\u00a0EPR paradox\u200a\u00a0and\u00a0Schr\u00f6dinger's cat,\u00a0since every possible outcome of a quantum event exists in its own universe."
+    },
+    {
+      "id": "0xbf1608652e4de4a0506b2638681c16b1e6e049c7fdd73bd1e332ee1e2757a821",
+      "created": "2021-11-24 00:41:20+00:00",
+      "topic": "Daemons",
+      "content": "In\u00a0multitasking\u00a0computer\u00a0operating systems, a\u00a0daemon\u00a0is a\u00a0computer program\u00a0that runs as a\u00a0background process, rather than being under the direct control of an interactive user. Systems often start daemons at\u00a0boot\u00a0time that will respond to network requests, hardware activity, or other programs by performing some task. Daemons are lesser divinities or spirits, often personifications of abstract concepts, beings of the same nature as both mortals and deities, similar to\u00a0ghosts,\u00a0chthonic\u00a0heroes,\u00a0spirit guides, forces of nature, or the deities themselves. Some daemons are both a quasi-divine being and a non-personified \"peculiar mode\" of their activity."
+    },
+    {
+      "id": "0xffc3ddd58c6cea27a7716415926ba0860529e3237e165109f66ee5c934a3bc90",
+      "created": "2021-12-06 14:15:10+00:00",
+      "topic": "Reflection",
+      "content": "Reflective programming (or \"reflection\") is the ability of a process to examine, introspect, and modify its own structure and behavior. Due to the possibility of exploitation through unexpected control flow, most systems that implement reflection also contain a robust sandbox security mechanism."
+    },
+    {
+      "id": "0x22fe0c444ce33e155ca73e02bd8d38db1bc3c288a0229ae9add40cc67f48ec09",
+      "created": "2021-12-14 02:33:19+00:00",
+      "topic": "Deities",
+      "content": "There is no universally accepted consensus on what a deity is, and concepts of deities vary considerably across cultures.\u00a0Some believe that the term \"deity or god or its equivalent in other languages\" has a bewildering range of meanings and significance. It has ranged from \"infinite transcendent being who created and lords over the universe\", to a \"finite entity or experience, with special significance or which evokes a special feeling\", to \"a concept in religious or philosophical context that relates to nature or magnified beings\u201d."
+    },
+    {
+      "id": "0x3d58abc0648daf25ea378202cae6e2862aed2f80c100e117c0af9c30d02628fc",
+      "created": "2021-12-14 02:24:02+00:00",
+      "topic": "Concepts",
+      "content": "Concepts\u00a0are defined as abstract\u00a0ideas. They are understood to be the fundamental building blocks of the concept behind principles,\u00a0thoughts\u00a0and\u00a0beliefs.\u00a0They play an important role in all aspects of\u00a0cognition. Conceptual combination\u00a0is a fundamental\u00a0cognitive process\u00a0by which two or more existing basic\u00a0concepts\u00a0are synthesized to generate a composite, higher-order concept."
+    }
+  ]
+}
