@@ -1,7 +1,10 @@
 /directory/*  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/:splat
-/opensea  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e
+
+/opensea  https://opensea.io/collection/corruption-s
 /opensea/*  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/:splat
-/market  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e
+
+/market  https://opensea.io/collection/corruption-s
 /market/*  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/:splat
-/buy  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e
+
+/buy  https://opensea.io/collection/corruption-s
 /buy/*  https://opensea.io/assets/0x5bdf397bb2912859dbd8011f320a222f79a28d2e/:splat
