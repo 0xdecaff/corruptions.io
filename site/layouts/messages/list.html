@@ -7,30 +7,114 @@
     </div>
     <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
         {{ range sort .Site.Data.messages.messages "createdAt" "desc"}}
-          <p>
-            {{ if eq .channel "CORRUPTION" }}
-            <strong style="color: purple">{{ .channel }}</strong>
-            {{ else if eq .channel "REFLECTION" }}
-            <strong style="color: green">{{ .channel }}</strong>
-            {{ else }}
-            <strong style="color: red">{{ .channel }}</strong>
-            {{ end }}
-            <small>:: {{ .createdAt }} :: <a href="https://etherscan.io/tx/{{ .id }}">tx</a></small>
-          <p>
-
-          <p>
-            {{ .message }}
-          </p>
+          <div class="row">
+            <div class="col-8">
+              {{ if eq .channel "CORRUPTION" }}
+              <strong style="color: purple">{{ .channel }}</strong>
+              {{ else if eq .channel "REFLECTION" }}
+              <strong style="color: green">{{ .channel }}</strong>
+              {{ else }}
+              <strong style="color: red">{{ .channel }}</strong>
+              {{ end }}
+              <small>:: {{ .createdAt }} :: <a href="https://etherscan.io/tx/{{ .id }}">tx</a></small>
+            </div>
+            <div class="col-4 float-right">
+              <div class="nav-item dropdown float-right">
+                <a class="nav-link btn dropdown-toggle" href="#" id="decoder" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  ?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="decoder">
+                  <a class="dropdown-item" href="#" onclick="showPlainText('{{ .id }}')">plaintext</a>
+                  <a class="dropdown-item" href="#" onclick="showBase64DecodeOrCorrupt('{{ .id }}')">base64</a>
+                  <a class="dropdown-item" href="#" onclick="showDecipherOrCorrupt('{{ .id }}')">decipher</a>
+                  <!-- TODO: button for PNG rendering -->
+                </div>
+              </div>
+            </div>
+          </div>
+          </br>
+          <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ .message }}</pre>
+          <pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
+          <pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
           
-          {{ if eq .b64 true }}
-              <small><i>part of this may be encoded... decode <a href="https://www.base64decode.org/">here</a></i></small>
-              <br><br>
-          {{ end }}
-            <hr>
+          <hr>
         {{ end }}
     </div>
   </div>
 </div>
+
+
+<script type="text/javascript">
+  function showPlainText(id) {
+    document.getElementById(`plaintext${id}`).hidden = false;
+    document.getElementById(`base64${id}`).hidden = true;
+    document.getElementById(`ciphertext${id}`).hidden = true;
+  }
+
+  function base64DecodeOrCorruptWord(word) {
+    try {
+      return atob( word )
+    } catch (err) {
+      return "$".repeat(word.length)
+    }
+  }
+
+  function showBase64DecodeOrCorrupt(id) {
+    plaintext = document.getElementById(`plaintext${id}`);
+    plaintext.hidden = true;
+    document.getElementById(`ciphertext${id}`).hidden = true;
+
+    decodedText = document.getElementById(`base64${id}`);
+    message = plaintext.innerHTML
+    decodedText.innerHTML = message.split(" ").map(x => base64DecodeOrCorruptWord(x)).join(" ");
+    decodedText.hidden = false
+  }
+
+  function decipherOrCorruptWord(word) {
+    let CIPHER = {
+      "/": "A",
+      $: "B",
+      "|": "C",
+      "8": "D",
+      _: "E",
+      "?": "F",
+      "#": "G",
+      "%": "H",
+      "^": "I",
+      "~": "J",
+      ":": "K",
+      Q: "L",
+      W: "M",
+      E: "N",
+      R: "O",
+      T: "P",
+      Y: "Q",
+      U: "R",
+      I: "S",
+      O: "T",
+      P: "U",
+      A: "V",
+      S: "W",
+      D: "X",
+      F: "Y",
+      G: "Z"
+    }; 
+    CIPHER[" "] = " ";
+    return word.split("").map(c => CIPHER[c] || "?").join("");
+  }
+
+  function showDecipherOrCorrupt(id) {
+    plaintext = document.getElementById(`plaintext${id}`);
+    plaintext.hidden = true;
+    document.getElementById(`base64${id}`).hidden = true;
+
+    decodedText = document.getElementById(`ciphertext${id}`);
+    message = plaintext.innerHTML;
+    decodedText.innerHTML = message.split(" ").map(x => decipherOrCorruptWord(x)).join(" ");
+    decodedText.hidden = false;
+  }
+</script>
 
 <!-- TODO: Modals for different message channels -->
 <!-- <h5>And modal:</h5>
@@ -58,5 +142,6 @@
     </div>
   </div>
 </div>
+z
 
 {{ end }}
