@@ -31,13 +31,23 @@
     // TODO: show this window on all pages?
     const Webamp = window.Webamp;
     new Webamp({
-        initialTracks: [{
-            metaData: {
-                title: "track 8"
+        initialTracks: [
+            {
+                metaData: {
+                    title: "track 8"
+                },
+                url: "/assets/Study-and-Relax.mp3",
+                duration: 223
             },
-            url: "assets/Study-and-Relax.mp3",
-            duration: 223
-        }],
+            {
+                metaData: {
+                    title: "OK",
+                    artist: "(*)"
+                },
+                url: "/assets/OK.mp3",
+                duration: 27
+            },
+        ],
     }).renderWhenReady(document.getElementById('mp3'));
 </script>   
 
