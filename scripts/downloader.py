@@ -17,7 +17,7 @@ def download_deviations(ids: List[int]):
             f"https://corruption-api.vercel.app/api/corruptionImage/{id}"
         )
         new_file_path = (
-            Path(__file__).parent / "site/static/assets/corruptions" / f"{id}.svg"
+            Path(__file__).parent.parent / "site/static/assets/corruptions" / f"{id}.svg"
         )
         if new_file_path.exists():
             continue
@@ -30,9 +30,9 @@ def download_deviations(ids: List[int]):
 
 
 all_ids = range(4196)
-deviation_filepath = Path(__file__).parent / "site/data/deviations.json"
+deviation_filepath = Path(__file__).parent.parent / "site/data/deviations.json"
 with open(deviation_filepath, mode="r") as f:
     deviations = json.load(f)
 
 
-download_deviations([4144])
+download_deviations([684])
