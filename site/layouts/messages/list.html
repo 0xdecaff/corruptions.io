@@ -6,40 +6,45 @@
       <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/envelope_closed-0.png"> message(s*)</h4>
     </div>
     <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
-        {{ range sort .Site.Data.messages.messages "createdAt" "desc"}}
-          <div class="row">
-            <div class="col-8">
-              {{ if eq .channel "CORRUPTION" }}
-              <strong style="color: purple">{{ .channel }}</strong>
-              {{ else if eq .channel "REFLECTION" }}
-              <strong style="color: green">{{ .channel }}</strong>
-              {{ else }}
-              <strong style="color: red">{{ .channel }}</strong>
-              {{ end }}
-              <small>:: {{ .createdAt }} :: <a href="https://etherscan.io/tx/{{ .id }}">tx</a></small>
-            </div>
-            <div class="col-4 float-right">
-              <div class="nav-item dropdown float-right">
-                <a class="nav-link btn dropdown-toggle" href="#" id="decoder" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  ?
-                </a>
-                <div class="dropdown-menu" aria-labelledby="decoder">
-                  <a class="dropdown-item" href="#" onclick="showPlainText('{{ .id }}')">plaintext</a>
-                  <a class="dropdown-item" href="#" onclick="showBase64DecodeOrCorrupt('{{ .id }}')">base64</a>
-                  <a class="dropdown-item" href="#" onclick="showDecipherOrCorrupt('{{ .id }}')">decipher</a>
-                  <!-- TODO: button for PNG rendering -->
-                </div>
-              </div>
-            </div>
-          </div>
-          </br>
-          <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ .message }}</pre>
-          <pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
-          <pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
-          
-          <hr>
+      <div class="text-center" data-toggle="modal" data-target="#prologueModal">
+        <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
+        <br>
+        <pre>prologue</pre>
+      </div>
+      <hr>
+
+      <div class="text-center">
+        <h4><pre>[latest]</pre></h4>
+      </div>
+      {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
+      {{ range sort $latest "createdAt" "desc"}}
+        {{ partial "message.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="prologueModal" tabindex="-1" role="dialog" aria-labelledby="prologueModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="prologueModalLabel">prologue</h6>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+        {{ $prologue := where .Site.Data.messages.messages "chapter" "prologue"}}
+        {{ range sort $prologue "createdAt" "asc"}}
+          {{ partial "message.html" . }}
         {{ end }}
+        <div class="text-center">
+          <h4><pre>[prologue complete]</pre></h4>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
@@ -116,32 +121,5 @@
   }
 </script>
 
-<!-- TODO: Modals for different message channels -->
-<!-- <h5>And modal:</h5>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button>
-  <p>Click button to show modal.</p> -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="/assets/confused_travolta.gif" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-z
 
 {{ end }}

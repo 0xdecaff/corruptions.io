@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-10" style="margin-bottom: -50px;">
+        {{ if eq .channel "CORRUPTION" }}
+        <h6 style="color: purple">{{ .channel }}</h6>
+        {{ else if eq .channel "REFLECTION" }}
+        <pre><h6 style="color: green">{{ .channel }}</h6></pre>
+        {{ else }}
+        <pre><h6 style="color: red">{{ .channel }}</h6></pre>
+        {{ end }}
+        <p style="font-size: 13px;">
+            {{ $cleanedTimestamp := index (split .createdAt "+") 0 }}
+            {{ $dateAndTime := split $cleanedTimestamp " " }}
+            {{ index $dateAndTime 0 }} <a href="https://etherscan.io/tx/{{ .id }}">{{ index $dateAndTime 1 }}</a>
+        </p>
+    </div>
+    <div class="col-2 float-right">
+        <div class="nav-item dropdown float-right">
+            <a class="nav-link btn dropdown-toggle" href="#" id="decoder" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="decoder" aria-hidden="true">
+                <a class="dropdown-item" href="#" onclick="showPlainText('{{ .id }}')">plaintext</a>
+                <a class="dropdown-item" href="#" onclick="showBase64DecodeOrCorrupt('{{ .id }}')">base64</a>
+                <a class="dropdown-item" href="#" onclick="showDecipherOrCorrupt('{{ .id }}')">decipher</a>
+                <!-- TODO: button for PNG rendering -->
+            </div>
+        </div>
+    </div>
+</div>
+</br>
+<pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ .message }}</pre>
+<pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
+<pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
+
+<hr>
