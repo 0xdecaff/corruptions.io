@@ -5,7 +5,7 @@
     <div class="card-header">
       <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/envelope_closed-0.png"> message(s*)</h4>
     </div>
-    <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+    <div id="messagesBody" class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
       <div class="text-center" data-toggle="modal" data-target="#prologueModal">
         <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
         <br>
@@ -14,12 +14,31 @@
       <hr>
 
       <div class="text-center">
-        <h4><pre>[latest]</pre></h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3 offset-3 text-center">
+            <h4><pre id="latest">[latest]</pre></h4>
+          </div>
+          <div class="col-3 text-center">
+            <a class="btn" href="#earliest" style="padding: 5px; font-size: small;">⬇ earliest</a>
+          </div>
+        </div>
       </div>
       {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
       {{ range sort $latest "createdAt" "desc"}}
         {{ partial "message.html" . }}
       {{ end }}
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-center">
+            <h4><pre id="earliest">[chapter 1]</pre></h4>
+          </div>
+          <div class="col-6 text-center">
+            <a class="btn" href="#latest" style="padding: 5px; font-size: small;">⬆ latest</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -51,6 +70,11 @@
 
 
 <script type="text/javascript">
+  // When the user clicks on the button, scroll to the top of the document
+  function scrollToBottom() {
+    document.getElementById("messagesBody").scrollTop = 100;
+  } 
+
   function showPlainText(id) {
     document.getElementById(`plaintext${id}`).hidden = false;
     document.getElementById(`base64${id}`).hidden = true;
