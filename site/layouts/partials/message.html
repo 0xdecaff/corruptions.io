@@ -1,17 +1,23 @@
 <div class="row">
     <div class="col-10" style="margin-bottom: -30px;">
-        {{ if eq .channel "CORRUPTION" }}
-        <h6 style="color: purple">{{ .channel }}</h6>
-        {{ else if eq .channel "REFLECTION" }}
-        <pre><h6 style="color: green">{{ .channel }}</h6></pre>
-        {{ else }}
-        <pre><h6 style="color: red">{{ .channel }}</h6></pre>
-        {{ end }}
-        <p style="font-size: 13px;">
+        {{ if eq .prefix "" }}
+            {{ $color := "purple" }}
+            {{ if eq .channel "CORRUPTION" }}
+                {{ $color = "purple" }}
+            {{ else if eq .channel "REFLECTION" }}
+                {{ $color = "green" }}
+            {{ else }}
+                {{ $color = "red" }}
+            {{ end }}
+
             {{ $cleanedTimestamp := index (split .createdAt "+") 0 }}
             {{ $dateAndTime := split $cleanedTimestamp " " }}
-            {{ index $dateAndTime 0 }} <a href="https://etherscan.io/tx/{{ .id }}">{{ index $dateAndTime 1 }}</a>
-        </p>
+
+            <h6 style="color: {{ $color }};">{{ .channel }}</h6>
+            <p style="font-size: 13px;">
+                {{ index $dateAndTime 0 }} <a href="https://etherscan.io/tx/{{ .id }}">{{ index $dateAndTime 1 }}</a>
+            </p>
+        {{ end }}
     </div>
     <div class="col-2 float-right">
         <div class="nav-item dropdown float-right">
@@ -28,8 +34,14 @@
     </div>
 </div>
 </br>
-<pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ .message }}</pre>
-<pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
-<pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
-
+<div class="row">
+    <div class="col-12">
+        <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ if not (eq .prefix "") }}{{ .prefix }} {{ end }}{{ .message }}</pre>
+        <pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
+        <pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
+    </div>
+    <div class="col-12">
+        {{ if not (eq .image "" )}}<img src="{{.image}}" style="width: 100%;"><br><br>{{ end }}
+    </div>
+</div>
 <hr>

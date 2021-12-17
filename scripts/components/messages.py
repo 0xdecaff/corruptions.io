@@ -12,6 +12,8 @@ class Message(pydantic.BaseModel):
     channel: str
     message: str
     chapter: str = ""
+    prefix: str = ""
+    image: str = ""
 
 
 def download() -> None:
