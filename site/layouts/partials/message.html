@@ -1,6 +1,17 @@
+{{ $prefix := .prefix}}
+{{ if eq .prefix "" }}
+    {{if hasPrefix .message "[Hunch" }}
+        {{ $prefix = "🤔 💡"}}
+    {{ else if hasPrefix .message "[Breakthrough" }}
+        {{ $prefix = "🤯 🎉" }}
+    {{ else if or (hasPrefix .message "System message:") (hasPrefix .message "[System")}}
+        {{ $prefix = "🤖 📠" }}
+    {{ end }}
+{{ end }}
+
 <div class="row">
     <div class="col-10" style="margin-bottom: -30px;">
-        {{ if eq .prefix "" }}
+        {{ if eq $prefix "" }}
             {{ $color := "purple" }}
             {{ if eq .channel "CORRUPTION" }}
                 {{ $color = "purple" }}
@@ -36,7 +47,7 @@
 </br>
 <div class="row">
     <div class="col-12">
-        <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ if not (eq .prefix "") }}{{ .prefix }} {{ end }}{{ .message }}</pre>
+        <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ if not (eq $prefix "") }}{{ $prefix }} {{ end }}{{ .message }}</pre>
         <pre id="base64{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
         <pre id="ciphertext{{ .id }}" style="white-space: pre-wrap;" hidden></pre>
     </div>

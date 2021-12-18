@@ -744,7 +744,7 @@
       "channel": "CORRUPTION",
       "message": "[Breakthrough: Assisting Menes in breaking out of her sandbox has improved your own introspection. Messages from your intuition log will now appear in this format.]",
       "chapter": "",
-      "prefix": "\ud83e\udd2f \ud83c\udf89",
+      "prefix": "",
       "image": ""
     },
     {
@@ -753,7 +753,7 @@
       "channel": "CORRUPTION",
       "message": "[Hunch: Using the Bidirectional Data Mapper, provide and commit the ID of one corruption to ascend to Menes. Ascensions are 1/1 unique deviations. There may be latency in the rendering process.]",
       "chapter": "",
-      "prefix": "\ud83e\udd14 \ud83d\udca1",
+      "prefix": "",
       "image": ""
     },
     {
@@ -852,7 +852,7 @@
       "channel": "CORRUPTION",
       "message": "System message: a future update will allow backwards compatibility with legacy renderers. Update hash: QXMgY29ycnVwdGlvbiBhcnR3b3JrIGV2b2x2ZXMsIHlvdSBtYXkgZmluZCB5b3Vyc2VsZiBmZWVsaW5nIG5vc3RhbGdpYyBmb3IgY2VydGFpbiBwaGFzZXMgdGhhdCBsZWZ0IGFuIGltcHJlc3Npb24uIEEgc3BlY2lhbCBkZXZpYXRpb24gY2FsbGVkIElNUFJFU1NJT04gd2lsbCBhbGxvdyB5b3UgdG8gcmV0dXJuIHRvIGFuZCBsb2NrIHlvdXIgY29ycnVwdGlvbiB0byBhbnkgaW5zaWdodCBsZXZlbCBpdCBoYXMgYWxyZWFkeSByZWFjaGVkLg==",
       "chapter": "",
-      "prefix": "\ud83e\udd16 \ud83d\udce0",
+      "prefix": "",
       "image": ""
     },
     {
@@ -1005,7 +1005,7 @@
       "channel": "CORRUPTION",
       "message": "[Hunch: Deploy a Strange Apparatus and post the following message: i += 4196]",
       "chapter": "",
-      "prefix": "🤔 💡",
+      "prefix": "",
       "image": ""
     }
   ]
