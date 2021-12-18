@@ -1,5 +1,5 @@
 {{ $prefix := .prefix}}
-{{ if eq .prefix "" }}
+{{ if and (eq .prefix "") (eq .channel "CORRUPTION") }}
     {{if and (hasPrefix .message "[") (strings.HasSuffix .message "]") }}
         {{ $prefix = "💡" }}
     {{ else if or (hasPrefix .message "System message:") (hasPrefix .message "[System")}}
