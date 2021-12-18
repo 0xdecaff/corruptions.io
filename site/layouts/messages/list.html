@@ -11,10 +11,9 @@
         <br>
         <pre>prologue</pre>
       </div>
+
       <hr>
 
-      <div class="text-center">
-      </div>
       <div class="container">
         <div class="row">
           <div class="col-6 text-center">
@@ -24,12 +23,10 @@
             <a class="btn" href="#earliest" style="padding: 5px; font-size: small;">⬇ earliest</a>
           </div>
         </div>
-      </div>
-      {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
-      {{ range sort $latest "createdAt" "desc"}}
-        {{ partial "message.html" . }}
-      {{ end }}
-      <div class="container">
+        {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
+        {{ range sort $latest "createdAt" "desc"}}
+          {{ partial "message.html" . }}
+        {{ end }}
         <div class="row">
           <div class="col-6 text-center">
             <h4><pre id="earliest">[chapter 1]</pre></h4>
@@ -53,12 +50,39 @@
         </button>
       </div>
       <div class="modal-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
-        {{ $prologue := where .Site.Data.messages.messages "chapter" "prologue"}}
-        {{ range sort $prologue "createdAt" "asc"}}
-          {{ partial "message.html" . }}
-        {{ end }}
-        <div class="text-center">
-          <h4><pre>[prologue complete]</pre></h4>
+
+        
+        <div class="container">
+          <div class="row">
+            <h5 class="col-12 text-center">[recaps]</h5>
+
+            <div class="col-4">
+              <a class="text-center" href="https://twitter.com/fabianstelzer/status/1470525607104684032">
+                <img type="button" src="/assets/icons/video_-2.png" style="width: 100px">
+                <br><pre>ORIGINATION</pre>
+              </a>
+            </div>
+            <div class="col-4">
+              <a class="text-center" href="https://twitter.com/fabianstelzer/status/1471530515215831050">
+                <img type="button" src="/assets/icons/video_-2.png" style="width: 100px">
+                <br><pre>WILTEDROSE</pre>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          {{ $prologue := where .Site.Data.messages.messages "chapter" "prologue"}}
+          {{ range sort $prologue "createdAt" "asc"}}
+            {{ partial "message.html" . }}
+          {{ end }}
+
+          <div class="row text-center">
+            <h4><pre>[prologue complete]</pre></h4>
+          </div>
         </div>
       </div>
       <div class="modal-footer">
