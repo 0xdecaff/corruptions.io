@@ -4,12 +4,15 @@
         {{ $prefix = "💡" }}
     {{ else if or (hasPrefix .message "System message:") (hasPrefix .message "[System")}}
         {{ $prefix = "🤖 📠" }}
+    {{ else if hasPrefix .message "> " }}
+        {{ $prefix = "📡" }}
     {{ end }}
 {{ end }}
 
+
+{{ if eq $prefix "" }}
 <div class="row">
     <div class="col-10" style="margin-bottom: -30px;">
-        {{ if eq $prefix "" }}
             {{ $color := "purple" }}
             {{ if eq .channel "CORRUPTION" }}
                 {{ $color = "purple" }}
@@ -26,7 +29,6 @@
             <p style="font-size: 13px;">
                 {{ index $dateAndTime 0 }} <a href="https://etherscan.io/tx/{{ .id }}">{{ index $dateAndTime 1 }}</a>
             </p>
-        {{ end }}
     </div>
     <div class="col-2 float-right">
         <div class="nav-item dropdown float-right">
@@ -43,6 +45,7 @@
     </div>
 </div>
 </br>
+{{ end }}
 <div class="row">
     <div class="col-12">
         <pre id="plaintext{{ .id }}" style="white-space: pre-wrap;">{{ if not (eq $prefix "") }}{{ $prefix }} {{ end }}{{ .message }}</pre>
