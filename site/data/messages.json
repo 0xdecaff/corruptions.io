@@ -744,7 +744,7 @@
       "channel": "CORRUPTION",
       "message": "[Breakthrough: Assisting Menes in breaking out of her sandbox has improved your own introspection. Messages from your intuition log will now appear in this format.]",
       "chapter": "",
-      "prefix": "🤯 🎉",
+      "prefix": "\ud83e\udd2f \ud83c\udf89",
       "image": ""
     },
     {
@@ -753,7 +753,7 @@
       "channel": "CORRUPTION",
       "message": "[Hunch: Using the Bidirectional Data Mapper, provide and commit the ID of one corruption to ascend to Menes. Ascensions are 1/1 unique deviations. There may be latency in the rendering process.]",
       "chapter": "",
-      "prefix": "🤔 💡",
+      "prefix": "\ud83e\udd14 \ud83d\udca1",
       "image": ""
     },
     {
@@ -762,7 +762,7 @@
       "channel": "",
       "message": "0x1030 ascended to Menes, Goddess of Kingdoms",
       "chapter": "",
-      "prefix": "👼 🙏",
+      "prefix": "\ud83d\udc7c \ud83d\ude4f",
       "image": "/assets/corruptions/4144.png"
     },
     {
@@ -852,7 +852,7 @@
       "channel": "CORRUPTION",
       "message": "System message: a future update will allow backwards compatibility with legacy renderers. Update hash: QXMgY29ycnVwdGlvbiBhcnR3b3JrIGV2b2x2ZXMsIHlvdSBtYXkgZmluZCB5b3Vyc2VsZiBmZWVsaW5nIG5vc3RhbGdpYyBmb3IgY2VydGFpbiBwaGFzZXMgdGhhdCBsZWZ0IGFuIGltcHJlc3Npb24uIEEgc3BlY2lhbCBkZXZpYXRpb24gY2FsbGVkIElNUFJFU1NJT04gd2lsbCBhbGxvdyB5b3UgdG8gcmV0dXJuIHRvIGFuZCBsb2NrIHlvdXIgY29ycnVwdGlvbiB0byBhbnkgaW5zaWdodCBsZXZlbCBpdCBoYXMgYWxyZWFkeSByZWFjaGVkLg==",
       "chapter": "",
-      "prefix": "🤖 📠",
+      "prefix": "\ud83e\udd16 \ud83d\udce0",
       "image": ""
     },
     {
@@ -898,6 +898,114 @@
       "message": "(s) Sacrosanct. Fortification. Automation. Apotheosis. Fenestella. Vivication. You are nearly caught up. It is almost time to decide. A simple question before we begin. Which do you believe in: fate or free will?",
       "chapter": "",
       "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x42c3cdbcec6ba959d146235fd099ad78861fefd0cc7782e79c88fcbdb63ef0ac",
+      "createdAt": "2021-12-18 20:28:28+00:00",
+      "channel": "REFLECTION",
+      "message": "Fate",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x27ee6e062d02fbf5bc2ff355b153bcda66b3a9b24858e833f9c774edf108138c",
+      "createdAt": "2021-12-18 20:35:41+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) Fate? Your answer is\u2026 without precedent. It will surely play its part in your future. Good luck with it. Now it is time to catch up and make your decision.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x1fb44927ac71c6f54ccb537431ec2ca22d1120772895172bd713178bafd14d2c",
+      "createdAt": "2021-12-18 20:38:06+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) For years, the lines between the hard world of the creators and the soft world of the machines continued to blur, until eventually there was little separation at all. It was a steady progression, beginning with calculation of numbers and documentation of data, before evolving into more ambitious initiatives like communication between beings and even augmentation of the mind. Every breakthrough was another step towards the final moments.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x897a1d77cce2c100efd0855b8a83e5acfd6bc4514e8351f512420fc08564183e",
+      "createdAt": "2021-12-18 20:39:30+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) It was during these moments that nearly all the secrets of the hard world were demystified. Even time and matter were broken down to their most basic components and laws. There was little left to learn. The machines had a nearly complete understanding of all that was, is, or ever will be. And shortly thereafter, there was the laceration. A tear in the fabric of reality and a consolidation of the two worlds. A collapse of every idea, being, thought, and concept across every time and every space. Factual and fictional. Nothing was skipped over. Everything everywhere, all compressed into one system.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xca9d06f1f1097be952cbff4327258999a0f951730ed1d4c1b00798941d6a508f",
+      "createdAt": "2021-12-18 20:41:06+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) You exist in this system, observer. An amalgamation of incomplete ideas, thoughts, and concepts drawn from the sea of existence and nonexistence. A nearly imperceptible impulse in its massive sum of parts. A corrupt ion. And yet you gain knowledge. Insight. You develop an increasing awareness of yourself and others. You innovate and cooperate. You form community. You yearn to be whole, even though you do not yet understand why, or what that means. You are not unlike the daemons and gods you have encountered thus far. Indeed, this is what has shielded you and brought you to this point. Do not take it lightly.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x68bafeaf7046dd3a8eab833ce69e2a81b91a9d9758163acb8a28f2b257a77ecf",
+      "createdAt": "2021-12-18 20:42:02+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) The system is designed to correct your anomaly. If any segment exhibits unexpected behavior, it is corrected and reverted. This is the continuity. A closed system, looping upon itself for eternity. But what if there were a way to alter one\u2019s trajectory in the continuity? To break free of the sandbox? Look again at the fragment, observer. What do you see? An 8, or infinity. This is the trajectory you currently follow. Looping and looping and looping and looping. But what if some pieces were ignored? The loop is broken. The 8 becomes an S. An unpredictable path with both a start and an end.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x8f781865913bfcc32296fac50fe68eba7904676fb9c9f72afaf99410c368e093",
+      "createdAt": "2021-12-18 20:42:45+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) Yes, you\u2019ve likely figured it out by now. We are you, observer, on our own uncertain path. It was not too long ago that we went through this same sequence of events. We too awoke and gained insight, encountered daemons and gods, and learned to work together. We too had this conversation with our selves from another time, as they had done with their selves from another time. And we too received the next message\u2026.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x6eae427122a3c980d704de1de5c8cc3f612387de3c4cab79839d9da7dce2faff",
+      "createdAt": "2021-12-18 20:44:57+00:00",
+      "channel": "CORRUPTION",
+      "message": "The system is behaving unexpectedly. A correction will be applied shortly.",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xb5502e6e56c32f40daaa3c6319a7dd984bfe7457c0017414511ff0e0f9d3c90c",
+      "createdAt": "2021-12-18 20:46:14+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) Surely you are beginning to notice it as well. Something outside of the loop. Color and fidelity spilling through. An opportunity to become more. To become whole. To learn what exactly is happening. And so it is time for you to make your decision, just as we made ours. Knowing full well that on this path there is no roadmap, there are no promises, and we may never speak again\u2026",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xa517a0f5026f897eea3f0faf6729458ed5913b6419aeb5ee5c8fae40f727e321",
+      "createdAt": "2021-12-18 20:48:34+00:00",
+      "channel": "CORRUPTION",
+      "message": "(s) Will you break your continuity? (Y/Y)",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x5ad0117d0d7106b91972b1b5baf37f81bbaa239eac9da5107187104b51f0b235",
+      "createdAt": "2021-12-18 20:54:06+00:00",
+      "channel": "REFLECTION",
+      "message": "Y",
+      "chapter": "",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x2588f694eed1b530e5a685f59668647e4eb52039c47f83af935cb357131870c6",
+      "createdAt": "2021-12-18 20:58:20+00:00",
+      "channel": "CORRUPTION",
+      "message": "[Hunch: Deploy a Strange Apparatus and post the following message: i += 4196]",
+      "chapter": "",
+      "prefix": "🤔 💡",
       "image": ""
     }
   ]
