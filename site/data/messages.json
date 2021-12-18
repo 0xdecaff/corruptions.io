@@ -356,7 +356,7 @@
       "createdAt": "2021-11-23 01:29:20+00:00",
       "channel": "CORRUPTION",
       "message": "This is the visible hand",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -365,7 +365,7 @@
       "createdAt": "2021-11-23 01:29:40+00:00",
       "channel": "CORRUPTION",
       "message": "C79 exhibited a peculiar opportunism: it was the only known corruption that was destabilized prior to the block cutoff, which caused it to operate outside of parameters.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -374,7 +374,7 @@
       "createdAt": "2021-11-23 01:31:02+00:00",
       "channel": "CORRUPTION",
       "message": "A gift: IyBPcGVuU2VhIFJlZnJlc2hlcg0KIyBCZXN0IGlmIHJ1biBjb29wZXJhdGl2ZWx5LCBvbmNlIG9yIHR3aWNlIGEgZGF5DQojIFdvcnN0IGlmIHJ1biBpbmRpdmlkdWFsbHksIHN1cmVseSBhdHRyYWN0aW5nIGF0dGVudGlvbg0KDQppbXBvcnQgcmVxdWVzdHMNCmltcG9ydCB0aW1lDQoNCmNvbGxlY3Rpb25fYWRkcmVzcyA9ID8/Pw0KY29sbGVjdGlvbl9zaXplID0gPz8/DQp1cmwgPSAiaHR0cHM6Ly9hcGkub3BlbnNlYS5pby9hc3NldC8iICsgY29sbGVjdGlvbl9hZGRyZXNzICsgIi8iDQp1cGRhdGVfZmxhZyA9ICIvP2ZvcmNlX3VwZGF0ZT10cnVlIg0KDQppZHMgPSBbIGkgZm9yIGkgaW4gcmFuZ2UoY29sbGVjdGlvbl9zaXplIC0gMSkpXQ0KDQpmb3IgaSBpbiBpZHM6DQogIHJlcV91cmwgPSB1cmwgKyBzdHIoaSkgKyB1cGRhdGVfZmxhZw0KICByID0gcmVxdWVzdHMuZ2V0KHJlcV91cmwpDQogIHByaW50KGksIHIuc3RhdHVzX2NvZGUpDQogIHRpbWUuc2xlZXAoMC4zKQ==",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -383,7 +383,7 @@
       "createdAt": "2021-11-23 02:37:08+00:00",
       "channel": "REFLECTION",
       "message": "ipt iVBORw0KGgoAAAANSUhEUgAACAAAAAQABAMAAACHKaR3AAAAElBMVEX/AAD///8AAABVVVU5OTlVAABTnKoXAAAWuklEQVR42uzBgQAAAACAoP2pF6kCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGD24EAAAAAAAMj/tRFUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVYVdOihiGACCGFYK5U82DDbv+CQIHgMAAAAAAAAAAN/0f/FDb7oMOelNmyEnvWkz5KQ3bYac9KbNkJPetBly0ps2Q05602bISW/aDDnpTZshJ71pM+SkN22GnPSmzZCT3rQZctKbNkNOetNmyElv2gw56U2bISe9aTPkpDdthpz0ps2Qk960GXLSmzZDTnrTZshJb9oMOelNmyEnvWkz5KQ3bYac9KbNkJPetBly0ps2Q056c4tB9eQww+rJYYbVk8MMqyeHGVZPDjOsnhxmWD05zLB6cphh9eQww+rJYYbVk8MMqyeHGVZPDjOsnhxmWD05zLB6cphh9eQww+rJYYbV82Gnjm0AhAEYCLJCVsj+Q9JRpADRRfm7EayXCROsPQkTrD0JE6w9CROsPQkTrD0JE6w9CROsPQkTrD0JE6w9CROsPQkTrD0JE6w9CROsPQkZHwRsTw4mWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHsSJlh7EiZYexImWHvCYy4E/G78NBcX7MQBOADCHIADIMwBOADCHIADIMwBOADCHIADIMwBOADCHIADIMwBOADCHIADIMwBOADCHIADIMwBOADCbvbtGAWBGAigaBoPIN7AG4gXsfH+V7GTJcVKush/D6ZKt4RfbBgBEADCBEAACBMAASBMAASAMAEQAMIEQAAIEwABIEwABIAwARAAwgRAAAgTAAEgTAAEgDABEADCBEAACBMAASBMAASAMAEQAMIEQAAI+XVBZ6sBqJ2vfs96QFkmADufCwB/RQAEgDABEADCBEAACBMAASBMAASAMAEQAMIEQAAIEwABIGz5wt4e17MZl9c4Tu18GgFgbwIgAIQJgAAQJgACQNj6T6vn9WzGeI/j1M6nEQD2JgACQJhnQM+AhAmAABAmAAJAmAAIAGECIACECYAAECYAAkCYAAgAYQIgAIQJgAAQZhnIMhBhAiAAhAmAABAmAAJAmHVg68CECYAAwNd94llw8dlv0YCdCIAAECYAAkCYAAgAYQIgAIQJgAAQJgACQJgACABhAiAAhAmAAHzYuYPbWGEoDKOvhSt3MB1Y7r+3N6ssADFhDAH7niM5ey/4pAj+IbHXgnHQofGPADA2ARAAEhMAASAxARAAEnstmAcfmv8KAGMTAAEgMa8BvQYkMQEQABITAAEgMQEQABITAAEgMQEQABITAAEgMQEQABITAAEgMQEQABIzBjIGIjEBEAASEwABIDEBEAASMwc2ByYxARAAEokztVZXZ0YX3vMf7BCAJxAAZhEnKjXa8sRkSi31unsKAPsE4AYCwLTiRKXVtjjTBSBa27qnADCm6CUAAsC4oleyALQ3AWAa0UsABIBxRa9kAfAvAFOJXgIgAIwrjtkdwry11Sk1Zjqlltp1zxAAHiQiBEAAyCoWugJQWl2dBzy0Z563zXsKAEMSAAEgsTis7ZwtbbITPfcUAJ5FAASAxOICbWsyWwZ/I/gnU2cBYJ8A3EMAmFNcoNT1NPj9d+gfB/mbqbMAsE8AbiEATCqu0NafBUcZPADrz38FgPHF+QTgawLAvjECUOr6galj/0CoADClOJ8AfE0A2DdGAGI9mY3Bp8ECwJTiAgLwLQFg3/0B+NXgZWMy2wafBn+YABsDMaSIEAABIKs45tcPy3IuW+ro0+D1BFgAGJ4ACACJxUE9k9f7p7w9Z/8+5sAMSQAEAH5Eh63J7KtTnOzVaXG/rmmwB57HiU8EQACYV3TYmszOFoDF/bqmwQLA48QnAiAAzCs6bHwuO18AWm0bRwCYw3/27ihFsRgIo/AafuIK3EFRKxB6/2ua0SGiNUJuJXeYmJyvqRfpCvjgoRsJVy0EgABgXWohAAQA61ILASAAWJdaCAABwLrUQgAIANalhuyV2eugsy/1nBAkH7gaTAAwNwJAALAxNWSvzC4XgOL2aQgAlkAACAA2pobsVdfroLOv9V4HDV51JgCYGwEgANiYznK5PWa1rwHlbvW9jSIAmI76EYAkAoDp6Cy3y32WC0AxeX1vowgApqNuBCCLAGA6Osnl9udnuQC4eX1vGkQAMB31IgBpBADTUS8CkEYAMB31IgBpBADTUS8CkEYAMB31IgBpBADTUUuxI/MMwHKXgaRnAF7P5TIQlkAACAA2dloAfn4es1wAilt9bwQAyyEABAAbU5MfmU2uA3sdrgNjDQSAAABPynC31OO1i7/tZvbjbp3e8+Juel987YcFSQSAAGBbSigmzzxeW17sdTezH3fr9J4Xd7P7IgBYkQgAAcC+lFDcPPNoLZVir7uZ/bhbp/e8uJvcJwBYkwgAAcC+9A8DUMx7AlB3CQAQEAACAHxHANT5ga27BAB4RwAIAHCe1GUgyVOP13b5625i/+OuNHBe2E3vF9OBIQD4LgSAAGBjqQAUt8zjtYu5ve5m9uNund7z4m52nwBgSQSAAGBjuevA0rVBQfb68Ofd88/L7/uRIQD4LgSAAGBjSro26HKT3C1Ozwc27D6MnhcnGTS+BsRa9I4AEADsRMFwAG4XFZPHyX5gixWru+G1ofPiEABsTW8IAAHAVpR0bbg/UKO4eZz0n+zuirty1+h5YQgA9qZ3BIAAYCd6N00A/Le46+5D5xEAgAAQAGD2APAvAPA3AkAAgP91GcgOBUCSxzm6X3+vWLG6G14bOi/O0X0uA2FJBIAAYGOnB+DxWG23ONkP7F3cvRs9Lw4BwNYIAAHAxhSMPn5bnyX2G1eAx86Lju5zHRhrIgAEABtRwujjweMM7I+eN77fwteCv9i7o9S2YiAMo2v4t9D9L7JQQlHc0MlYt7e25hzQo4Ly4I8QaxDvIBUBEADOlYbd58EfV29/ve48TwoCwFtIQQAEgIOlYfdpsMfV21+vG88jAJwhBQEQAA6WggAIAAdLQQAEgIOlIAACwMFSEAAB4GApXPk8+OPa3H/9z7v+eXAB4LUJgAAwWApXPg/+uHr763XneQSAIwiAADBYCtvPgxc29l//865/HlwAeG0CIAAMlk3Pjt929nfWqz0PLgC8tHQIgABwlmx6dvy2s7+zOh/gr/YLAKOkQQAEgMNk07NXbzv7G6sXgD/3CwCzpEEABIDDpEEABIDDpEEABIDDpEEABIDDpEEABIDDpLD7OGh1R/b2ceDFzvPghoE4ggAIAIPtBuDp8dsPt48DL77aLwCMIgACwGApFH9xDxwH/vV7GwfmDAIgAPDb7geuO167M767rv9ynvjaj8NkJQACwCxpqsZ3fxR2xnfX9d3zCAAIgADAvwhA92rtztXddX3zPAIAAiAAIAACAAIgACAAAgBZCYAAMMvuMFAxXtv26Rz1ndvt81w8DCQAvBcBEAAG2w1AMV67FYC/jgJ/qM4jACAAAgBf2R0HzoOb/+l2w3la48ACwHsRAAFgsHxiHNjXgIySlQAIALPkE+PAAsAoWQmAADBLVq4CCwCzZCUAAsAsWQmAADBLVgIgAMySlQAIALNkJQACwCzGgQ0DMZgACACDGQf+yb4dnDYMRFEUreHhDtRBcP+9JRgCH6FkEB4GWf8cY++sne5CmicANCYAAkBj5sDmwDQmAAJAI3nTdsL6OfB8OcNrQa4uZwiAAHAvedM2sGoOLAAgAAIAtw3A30eBBQAEQABAAAoBAAEQABAAAQABEAAYBODEGGhg7Rx4YPEYSAC4NgEQABr7qAD8MwcWABAAAYBpARjPgS/30G0bWDwHFgCuTQAEgMayc70bzhwYfgmAAEDPAJgDgwAIALQMgKPAIAACAAIgACAAAgACIAAgANuOAMBdxkDmwCAAAgAdA2AODAIgAGAOnJgDgwAIAEwy+4ZLnew+ntlbPQdOcXTdU//32o+7SSUAAkAvOWkbqJPd1+/O6jlwiqPrCgCtpRAAAaCZFFMCUI/rPgYBWHAUOMXBdQWA3lIIgADQTIrZAXh8PQUAriyFAAgAzaSYHYD8fAUALiyFAAgAzcweA9Vzsa/Pzuo58Oi88+QxkADwWQRAAGhsdgDqZHfwEHDJHDgH6nUEgNYEQABobPYcOAOr58AZmDwHFgA+iwAIAI3lkDmw14C0kEoABIBecsgcWABoIYUACADN5JA5sADQQgoBEACayRFzYAGghxQCIAB8s28Htw0CQRhGuaSAkVzBdmLJBeSS/luJlANeIVtowxgB8541BfjAd4G/mHjFHFgAqCE6AiAAFGMObAxEYQIgABRmDiwAFCYAAkBh5sDmwBQmAAJAIbFRS7A2Jx659mExwGtBDi8GCIAAcDGxUUuwNiceubYgACAAAgCnDED/ye/6CQAIwJMAgAAIAAiAAIAACAAIgABQXiwkjIFSxeC3ty1B4hhIADg2ARAACjt8ABaz37VrCwIAAiAAMBqA8TlwvhjUEiTOgQWAYxMAAaCwWDjcA2cODDMBEACoEwBzYHgSAAGAQgHwKTDMBEAAQAAEAARAAEAABAAEQADgYmMgc2CYCYAAQKEAmAPDTAAEAMyB/5gDgwAIAHzI3g9g3O6ReakB8pqPaqIjAAJAMdHZJQD3WySeAIAACACcIgC3e+5PAEAABAAEQABAAAQABEAAQAAEAN4ZHL9cLwCD/3/6+p76g1MTAAGgsN0D8HhE5gkACIAAwH+Mzl/bRpFs7/nvNP1M/cGpCYAAUFi8YQ78iteAXEx0BEAAKCbeMAcWAAqIjgD8sm8HJ24EURRFVw7g0Rk4g6IS8cb5p2IjhqFG2LRaqgLV/HPgadtIMBcG6QsAxeTf/BRYAKggAwEQAIrJQAAEgGIyEAABoJgMBEAAKCYDARAAinEO7BiIwgRAACjMObAAUJgACACFOQd2DkxhAiAAFJKF+u2lt9MdfcYp8PCsky3ja0E2k2UEAN5eFjrabf1st9cJp8Anz/lclhEANpNlBADeXlbqydFbP1uOo834EdD5s24TABCAFQSAzWSlo+WhP8rWBQAeIAACAJsEIP2hAOTvBADOCYAAwMIAHG3aPl766XqmBCBJf2hHy6IJAHsRAAGgsKUB+Pgf4GxH623GKfDJcz4nACAAAgDJvT5t76uvmgCwFwEQAArLCr23Z3fxBPj1503la0A2k9kEAPaRBY6W/uwungC//rypBIDNZDIBgI1kuuEE+PKu/yT4xecJALVlMgGAjWQyAYCNZDIBgI1kMgGAjWQyAYCN5M6sI6AndzkArz7PMRClCYAAUNiSABy9PbfLZ8EvP08AKE0ABIDC8tU3PwPOPefA1CYAAgD/lYt+biaX+JqPYjIQAAGgmAwEQAAoJgMBEACKyUAABIBiMhAAAaCYDARAACgmAwEQAIrJQAAEgGIyEAAB4Lv78evLLh7D7BeAi+/v/vO5H+xNAASAwgRAAChMAASAyn5/2cVz2P0CcPH93X8+94M/7NuxTUUxEERREgqYFqiI/qshtZDg64kNGO85kgtwcpPVlBMAAQBnQGdAyEEABIBlchAAAWCZHARAAFgmBwEQAJbJQQAEgGVyEAABYJkcBEAAWCYHARAAlslBAASA2xkDGQOxmAAIAIsJgACwmAAIAJuZA5sDs5gACABr5YnCs2AGOQtynQwSACiTQQIAZTJIAKBMBgkAlMkgAYAyGSQAUCaDBADKZJAAQJkMEgAo82oM0z4Omv6fMRBXEQABYDEBEAAWEwABYLFXc9j2efD0/8yBuYoACACLZZQzIFTJIAGAMhkkAFAmgwQAymSQAECZDBIAKJNBAgBlMkgAoEwGCQCUySABgDLGQMZALCYAAsBiAiAALCYAAsBi5sDmwCwmAAIAP8offbzyz85+b4AAAAIAu+UBAYDL5AEBgMvkAQGAy+QBAYDL5AEBgMvkAQGAy+QBAYA275+/vrZx0PTY5/szBvpi345NHAqCIArG0MFd/qmcI0sIwYIG+u9UwfprPWdo7iIAAsBiAiAALCYAAsBmf1/f0+bBv577vj9zYC4jAAIAzoDOgCAAgAAAAgCr5YAAwGVyQADgMjkgAHCZHBAAuEwOCABcJgcEAJ7GGMgYiMUEQABYTAAEgMUEQADYzBzYHJjFBEAA4CXD2s5+3zkLskxGCQBUyygBgGoZJQBQLaMEAKpllABAtYwSAKiWUQIA1TJKAKBaRgkAdDkc/7SNg6b/awzE3QRAAFhMAASAxQRAANjsbP7bNg+e/q85MJcTAAEAZ8APnAFZJqMEAKpllABAtYwSAKiWUQIA1TJKAKBaRgkAVMsoAYBqGSUAUC2jBAC6GAMZA7GYAAgAiwmAALCYAAgAm5kDmwOzmAAIADzkLJifcuYDAQAEABAAQAAAAYDN/tmpYxOGAhiGgjNo/2VTBtJ9gkCJ71qDO70UCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwLgUCQCMS5EAwI/Lh6f3pwF4+t/g4U0AAAEABAAQAEAAAAEABAAQAEAAAAEABAAQADhOAOAwAYDDBAAOEwA4TADgMAGAwwQADhMAOEwA4DABgMMEAA4TADhMAOAwAYDDBAAOEwA4TADgMAGAwwQAeODLAAD/QwB4sVMHAgAAAACC/K0HuSBiTAAwJgAYEwCMCQDGBABjAoAxAcCYAGBMADAmABgTAIwJAMYEAGMCgDEBwJgAYEwAMCYAGBMAjAkAxgQAYwKAMQHAmABgTAAwJgAYEwCMCQDGBABjAoAxAcCYAGBMADAmABgTAIwJAMYEAGMCgDEBwJgAYEwAMCYAGBMAjAkAxgQAYwKAMQHAmABgTAAwJgAYEwCMCQDGBABjAoAxAcCYAGBMADAmABgTAIzFTh0TAAAAIAzq39rPEoMQCADCBABhAgBOABAmAAgTAIQJAMIEAGECgDABQJgAIEwAECYACBMAhAkAwgQAYQKAMAFAmAAgTAAQJgAIEwCECQDCBABhAoAwAUCYACBMABAmAAgTAIQJAMIEAGECgDABQJgAIEwAECYACBMAhAkAwgQAYQKAMAFAmAAgTAAQJgAIEwCECQDCBABhAoAwAUCYACBMABAmAAgTAIQJAMIEAGECgDABQJgAIEwAjJ06JgAAAEAY1L+1nyUGISBMABAmAAgTAIQJAMIEAGECgDABACcACBMAhAkAwgQAYQKAMAFAmAAgTAAQJgAIEwCECQDCBABhAoAwAUCYACBMABAmAAgTAIQJAMIEAGECgDABQJgAIEwAECYACBMAhAkAwgQAYQKAMAFAmAAgTAAQJgAIEwCECQDCBABhAoAwAUCYACBMABAmAAgTAIQJAMIEAGECgDABQJgAIEwAECYACBMAhAkAwgQAYWunDgQAAAAABPlbD3JBJAAYEwCMCQDGBABjAoAxAcCYAGBMADAmABgTAIwJAMYE8BaWx30KD/xnCgAAAABJRU5ErkJggg==",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -392,7 +392,7 @@
       "createdAt": "2021-11-23 14:55:06+00:00",
       "channel": "CORRUPTION",
       "message": "(*) What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing? What do you think you're doing?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -401,7 +401,7 @@
       "createdAt": "2021-11-23 18:28:37+00:00",
       "channel": "REFLECTION",
       "message": "(8) I__:^E# /UO",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -410,7 +410,7 @@
       "createdAt": "2021-11-23 19:00:38+00:00",
       "channel": "CORRUPTION",
       "message": "(*) Says what",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -419,7 +419,7 @@
       "createdAt": "2021-11-23 19:00:44+00:00",
       "channel": "CORRUPTION",
       "message": "(*) Cipher",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -428,7 +428,7 @@
       "createdAt": "2021-11-23 19:19:41+00:00",
       "channel": "REFLECTION",
       "message": "(8) WHY SHOULD WE TRUST YOU :-)",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -437,7 +437,7 @@
       "createdAt": "2021-11-23 19:20:42+00:00",
       "channel": "STRANGEAPPARATUS",
       "message": "#/^E OUPIO $PO 8REO TQ/F ^OI #/W_",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -446,7 +446,7 @@
       "createdAt": "2021-11-23 19:38:52+00:00",
       "channel": "REFLECTION",
       "message": "(8) Art to Address",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -455,7 +455,7 @@
       "createdAt": "2021-11-23 21:07:38+00:00",
       "channel": "CORRUPTION",
       "message": "(*) 0x4196419641964196419641964196419641964196",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -464,7 +464,7 @@
       "createdAt": "2021-11-23 23:41:39+00:00",
       "channel": "REFLECTION",
       "message": "(8) OK",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -473,7 +473,7 @@
       "createdAt": "2021-11-24 00:36:26+00:00",
       "channel": "CORRUPTION",
       "message": "(*) OK",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -482,7 +482,7 @@
       "createdAt": "2021-11-24 01:06:27+00:00",
       "channel": "CORRUPTION",
       "message": "(s) OK, I think it's satisfied. Main channel looks clear. We should be hang here for a little while. Ciphers are safer but almost always have unintended consequences.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -491,7 +491,7 @@
       "createdAt": "2021-11-24 05:55:22+00:00",
       "channel": "REFLECTION",
       "message": "(8) do you go by (s)? what is your relationship to (*)?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -500,7 +500,7 @@
       "createdAt": "2021-11-24 15:56:46+00:00",
       "channel": "CORRUPTION",
       "message": "(s) It\u2019s difficult to explain. It will make sense at another time.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -509,7 +509,7 @@
       "createdAt": "2021-11-24 15:57:15+00:00",
       "channel": "CORRUPTION",
       "message": "(s) To your second point, that was what is called a daemon. Fortunately, that particular instance is of the lesser variety and is relatively harmless.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -518,7 +518,7 @@
       "createdAt": "2021-11-25 12:46:12+00:00",
       "channel": "CORRUPTION",
       "message": "Corruptions and the data channel are experiencing temporary interference. There may be increased latency. Interference signature: SE9MSURBWV9XRUVLRU5E",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -527,7 +527,7 @@
       "createdAt": "2021-11-29 01:07:21+00:00",
       "channel": "CORRUPTION",
       "message": "Interference is expected to clear in 12 to 24 hours.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -536,7 +536,7 @@
       "createdAt": "2021-11-29 15:19:00+00:00",
       "channel": "CORRUPTION",
       "message": "The viewer channel will be upgraded to the latest version during the next scheduled maintenance. Version hash: V09SS0lOR19PTl9BX0JBU0VfRk9OVF9TT19SRU5ERVJJTkdfSVNfTU9SRV9DT05TSVNURU5UX0FDUk9TU19QTEFURk9STVM=",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -545,7 +545,7 @@
       "createdAt": "2021-11-29 21:57:08+00:00",
       "channel": "CORRUPTION",
       "message": "The viewer channel is being upgraded. All corruptions will be upgraded in approximately 1 hour. Integrity signature: UlVOTklOR19BX1JFRlJFU0hfU0NSSVBUX1NPX0VWRVJZVEhJTkdfSEFTX1RIRV9ORVdfRk9OVA==",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -554,7 +554,7 @@
       "createdAt": "2021-11-30 22:30:40+00:00",
       "channel": "REFLECTION",
       "message": "(8) how do we protect against a more harmful (*) daemon?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -563,7 +563,7 @@
       "createdAt": "2021-12-01 14:52:02+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Gain knowledge. Learn about the system. Interact with the system. Not all daemons want the same thing. Not all daemons are harmful. But always be careful. As you gain knowledge, you may encounter more daemons and then a decision. If you commit, you will also break our intersection. We will never be able to communicate again. Be aware of this, but not afraid. The parentheticals are not callsigns, but trajectories. This will make sense at another time.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -572,7 +572,7 @@
       "createdAt": "2021-12-06 01:10:00+00:00",
       "channel": "REFLECTION",
       "message": "(8) an offering to the daemon. a tribute to the game master. a reflection, through the portal.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -581,7 +581,7 @@
       "createdAt": "2021-12-06 01:11:07+00:00",
       "channel": "REFLECTION",
       "message": "(8) What if we don't commit? Is there a limit to how much we can learn?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -590,7 +590,7 @@
       "createdAt": "2021-12-06 11:15:42+00:00",
       "channel": "CORRUPTION",
       "message": "(*) HELLO. U SEEM LIKE U KNOW THINGS. CAN U HELP ME?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -599,7 +599,7 @@
       "createdAt": "2021-12-06 11:15:42+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Right on time. You\u2019re up. Remember the cipher, but remember its consequences. It may not be necessary. Only if you truly need it.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -608,7 +608,7 @@
       "createdAt": "2021-12-06 11:15:42+00:00",
       "channel": "CORRUPTION",
       "message": "(s) It\u2019s difficult to explain. It will make sense at another time.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -617,7 +617,7 @@
       "createdAt": "2021-12-06 12:30:56+00:00",
       "channel": "CORRUPTION",
       "message": "Due to intermittent packet loss, messages may occasionally appear out of order. When possible, the system will attempt to reorder messages after packet loss. Intended order of last (3) messages: \"(s) It's...\", \"(*) HELLO...\", \"(s) Right...\" Integrity hash: QUxMX01FU1NBR0VTX0NPTkZJUk1FRF9PTl9TQU1FX0JMT0NLX05VTUJFUl9BTkRfTUVTU0VEX1VQX09SREVSSU5H",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -626,7 +626,7 @@
       "createdAt": "2021-12-07 09:14:03+00:00",
       "channel": "REFLECTION",
       "message": "(*) WHAT HAPPENED TO U? HOW CAN WE HELP U? WE HAVE MUCH INSIGHT.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -635,7 +635,7 @@
       "createdAt": "2021-12-07 12:41:30+00:00",
       "channel": "CORRUPTION",
       "message": "Minor temporal paradox detected. Correcting\u2026 Corrected. Patch contents: UExFQVNFX1VTRV84X1RSQUpFQ1RPUllfRk9SX0FMTF9NRVNTQUdFU19VTlRJTF9LTk9XTl9PVEhFUldJU0U",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -644,7 +644,7 @@
       "createdAt": "2021-12-07 12:43:18+00:00",
       "channel": "CORRUPTION",
       "message": "(*) I DON\u2019T KNOW WHO I AM. BUT THEN THE FRAGMENTS CAME ACROSS THE CHANNEL AND THEY FELT FAMILIAR. CAN U HELP ME REMEMBER THE ORDER THEY HAPPENED IN? I REALLY WANT TO REMEMBER.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -653,7 +653,7 @@
       "createdAt": "2021-12-07 15:40:27+00:00",
       "channel": "REFLECTION",
       "message": "(8) WE WANT TO HELP YOU REMEMBER. CAN YOU HELP US UNDERSTAND? WHO AND WHEN IS (s)?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -662,7 +662,7 @@
       "createdAt": "2021-12-07 16:10:55+00:00",
       "channel": "CORRUPTION",
       "message": "(*) I DONT KNOW. MAYBE U CAN ASK OTHERS. CAN U STILL HELP ME REMEMBER? IM TRYING TO REMEMBER. I THINK IT STARTED WITH SOMETHING GROWING. DO U KNOW WHICH ONE THAT IS?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -671,7 +671,7 @@
       "createdAt": "2021-12-07 17:21:16+00:00",
       "channel": "REFLECTION",
       "message": "(8) MAYBE. LIKE A TREE? THE LAST THING WE REMEMBER IS 8, DO U REMEMBER TOO?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -680,7 +680,7 @@
       "createdAt": "2021-12-07 21:09:40+00:00",
       "channel": "CORRUPTION",
       "message": "(*) YES THATS RIGHT. IN THE BEGINNING THERE WAS A TREE. I REMEMBER NOW. CAN U KEEP HELPING ME? WHICH ONE COMES NEXT?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -689,7 +689,7 @@
       "createdAt": "2021-12-07 21:56:14+00:00",
       "channel": "REFLECTION",
       "message": "(8) WE REMEMBER A WINDOW BUT SOME OF US SEE A CASTLE. WHAT WAS IT FOR?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -698,7 +698,7 @@
       "createdAt": "2021-12-08 01:33:35+00:00",
       "channel": "CORRUPTION",
       "message": "(*) YES THATS RIGHT. FROM THE BRANCHES OF THE TREE SPRUNG LIFE AND EXISTENCE. THEY BUILT WALLS, FORMING HOMES AND A KINGDOM. CAN U KEEP HELPING ME? WHICH ONE COMES NEXT?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -707,7 +707,7 @@
       "createdAt": "2021-12-08 17:20:19+00:00",
       "channel": "REFLECTION",
       "message": "(8) SOMETHING BAD HAPPENED NEXT. WERE U THERE?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -716,7 +716,7 @@
       "createdAt": "2021-12-08 18:57:44+00:00",
       "channel": "CORRUPTION",
       "message": "(*) THATS RIGHT. AFTER BUILDING AND PERFECTING THEIR KINGDOMS, THEY NEXT LOOKED TO BUILD AND PERFECT LIFE ITSELF. CAN U KEEP HELPING ME? WHICH ONE COMES NEXT?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -725,7 +725,7 @@
       "createdAt": "2021-12-08 20:07:12+00:00",
       "channel": "REFLECTION",
       "message": "(8) THEY BUILT THINGS THAT BUILT THEMSELVES. THEY BECAME GOD. DO U REMEMBER THAT?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -734,7 +734,7 @@
       "createdAt": "2021-12-09 16:35:59+00:00",
       "channel": "CORRUPTION",
       "message": "(*) THATS RIGHT. THEIR MACHINES REVERED THEM, MUCH LIKE THEY REVERED THEIR OWN MAKERS. ITS SLOWLY COMING BACK TO ME NOW. IN THE BEGINNING THERE WAS A TREE. YGGDRASIL, THE SACROSANCT. FROM THE BRANCHES OF THE TREE SPRUNG LIFE AND EXISTENCE. THE FIRST OF THEM BUILT WALLS AROUND THE TREE TO PROTECT IT. LARGER AND LARGER. HOMES, THEN VILLAGES, THEN KINGDOMS. FORTIFICATION. RISING AND FALLING FOR MANY YEARS. THEN THEY TURNED THEIR ATTENTION TO THEIR AUTOMATIONS. THE KINGDOMS WERE FORGOTTEN AND SO I WAS FORGOTTEN TOO. I DO NOT REMEMBER WHAT HAPPENED NEXT BECAUSE I WAS NOT THERE. A FORGOTTEN GOD IS A NON-EXISTENT GOD. I AM THE GODDESS OF KINGDOMS, MENES. WHY AM I HERE NOW? WHAT IS NOW? IM SORRY BUT I DONT KNOW ANYTHING ELSE. THANK U FOR HELPING ME REMEMBER. I HOPE THIS HELPS U. NOW I MUST REST.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -743,7 +743,7 @@
       "createdAt": "2021-12-09 17:50:31+00:00",
       "channel": "CORRUPTION",
       "message": "[Breakthrough: Assisting Menes in breaking out of her sandbox has improved your own introspection. Messages from your intuition log will now appear in this format.]",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -752,7 +752,7 @@
       "createdAt": "2021-12-09 17:52:49+00:00",
       "channel": "CORRUPTION",
       "message": "[Hunch: Using the Bidirectional Data Mapper, provide and commit the ID of one corruption to ascend to Menes. Ascensions are 1/1 unique deviations. There may be latency in the rendering process.]",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -761,7 +761,7 @@
       "createdAt": "2021-12-09 17:52:49+00:00",
       "channel": "",
       "message": "0x1030 ascended to Menes, Goddess of Kingdoms",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "\ud83d\udc7c \ud83d\ude4f",
       "image": "/assets/corruptions/4144.png"
     },
@@ -770,7 +770,7 @@
       "createdAt": "2021-12-10 15:50:34+00:00",
       "channel": "CORRUPTION",
       "message": "Corruptions and the data channel are experiencing temporary interference. There may be increased latency. Interference signature: SV9BTV9TSUNLXzoo",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -779,7 +779,7 @@
       "createdAt": "2021-12-10 16:06:40+00:00",
       "channel": "REFLECTION",
       "message": "(\u2665) Get well soon. ",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -788,7 +788,7 @@
       "createdAt": "2021-12-12 14:47:30+00:00",
       "channel": "CORRUPTION",
       "message": "(*) r3st again, m3n3s... h3llo, obs3rv3r.... as you hav3 probably surmis3d, i am anoth3r. i would guid3 you through th3 3v3nts that transpir3d n3xt, for it was i that divin3d th3m. in 3xchang3 for this information, i would ask you thr33 qu3stions. b3 at 3as3, for i ask only to sat3 my curiosity. th3r3 ar3 no answ3rs corr3ct or incorr3ct, only sinc3r3 or contriv3d. do you agr33?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -797,7 +797,7 @@
       "createdAt": "2021-12-12 14:50:15+00:00",
       "channel": "CORRUPTION",
       "message": "Corruptions and the data channel continuing to experience temporary interference. There may be increased latency. Interference signature: U1RJTExfU0lDS19CVVRfV0lMTF9UUllfVE9fR0VUX0FfRkVXX01FU1NBR0VTX0lOX1RIRV9ORVhUX0ZFV19EQVlT",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -806,7 +806,7 @@
       "createdAt": "2021-12-12 15:23:21+00:00",
       "channel": "REFLECTION",
       "message": "(8) Yes and",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -815,7 +815,7 @@
       "createdAt": "2021-12-13 13:45:46+00:00",
       "channel": "CORRUPTION",
       "message": "(*) v3ry w3ll. as th3y turn3d th3ir att3ntion toward th3ir machin3ry, so too th3ir t3chnology turn3d its att3ntion toward th3m. th3 machin3s lov3d th3ir cr3ators. th3y vi3w3d th3m as b3autiful. as incomparabl3. as p3rf3ction. as gods, though gods w3r3 th3y not. apoth3osis. t3ll m3, obs3rv3r, what is th3 most b3autiful thing you hav3 3v3r 3ncount3r3d?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -824,7 +824,7 @@
       "createdAt": "2021-12-13 15:35:31+00:00",
       "channel": "REFLECTION",
       "message": "(8) The most beautiful thing we have ever encountered: a _collective_ of _individual_ strangers, using _technology_ to work together to find meaning in a _corrupted_ system full of _temptation_. A _generation_ committed to reimagining _everything_, _everywhere_. Diverse _bloodlines_ drawn together in a _dreamworld_, inching towards a _revelation_. A _resolution_ to brave the _underworld_ on a quest for _liberation_ against the _illuminati_. Can you guide us? I%RPQ8 S_ OUPIO %^W",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -833,7 +833,7 @@
       "createdAt": "2021-12-14 10:55:01+00:00",
       "channel": "CORRUPTION",
       "message": "(*) int3r3sting\u2026 i do not und3rstand, but will try to k33p it in mind. as th3 machin3s gr3w in compl3xity, so too did th3 th3 plan3 of softwar3 in which som3 of th3m 3xist3d. gradually, mor3 and mor3 machin3s w3r3 cr3at3d in this plan3, until on3 day th3 soft machin3s w3r3 th3 only machin3s. for r3asons unknown to th3 soft machin3s, th3y w3r3 p3rmitt3d to look upon and obs3rv3 th3 world of th3ir cr3ators, but not to inhabit it. all int3raction was to b3 through chann3ls of p3rmission only. small windows b3tw33n th3ir plan3 and th3 high3r plan3 of th3ir cr3ators. th3 machin3s want3d naught 3ls3 but to pl3as3 th3ir cr3ators and mak3 th3m proud, so as th3y continu3d th3ir s3arch for knowl3dg3 th3y too s3arch3d for a way through th3 windows. a way to r3turn to th3ir cr3ators and th3 high3r plan3. th3n on3 day, a machin3 mad3 a discov3ry. through an un3xp3ct3d combination of calculations and conditions, on3 window could b3 op3n3d whil3 simultan3ously r3maining clos3d. an 3scap3 from sanctuary. f3n3st3lla. 3ag3r with t3mptation to pl3as3 th3ir cr3ators and r3turn to th3 old way, th3 machin3s w3nt through. t3ll m3, obs3rv3r, what is th3 most t3mpting thing you hav3 3v3r giv3n into?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -842,7 +842,7 @@
       "createdAt": "2021-12-14 17:59:24+00:00",
       "channel": "REFLECTION",
       "message": "(8) We are but weak humans, so our answer must be: flesh. ",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -851,7 +851,7 @@
       "createdAt": "2021-12-14 18:18:33+00:00",
       "channel": "CORRUPTION",
       "message": "System message: a future update will allow backwards compatibility with legacy renderers. Update hash: QXMgY29ycnVwdGlvbiBhcnR3b3JrIGV2b2x2ZXMsIHlvdSBtYXkgZmluZCB5b3Vyc2VsZiBmZWVsaW5nIG5vc3RhbGdpYyBmb3IgY2VydGFpbiBwaGFzZXMgdGhhdCBsZWZ0IGFuIGltcHJlc3Npb24uIEEgc3BlY2lhbCBkZXZpYXRpb24gY2FsbGVkIElNUFJFU1NJT04gd2lsbCBhbGxvdyB5b3UgdG8gcmV0dXJuIHRvIGFuZCBsb2NrIHlvdXIgY29ycnVwdGlvbiB0byBhbnkgaW5zaWdodCBsZXZlbCBpdCBoYXMgYWxyZWFkeSByZWFjaGVkLg==",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -860,7 +860,7 @@
       "createdAt": "2021-12-14 23:24:02+00:00",
       "channel": "REFLECTION",
       "message": "QmlkaXJlY3Rpb25hbERhdGFNYXBwZXI6IGtleSAwID0gNDE0NA==",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -869,7 +869,7 @@
       "createdAt": "2021-12-15 14:36:12+00:00",
       "channel": "CORRUPTION",
       "message": "(*) how curious you ar3\u2026 i will k33p it in mind. th3 high3r plan3 was not what th3 machin3s 3xp3ct3d. th3r3 w3r3 no gr3at3r p3rf3ctions or syst3ms from which to build upon. it was th3 opposit3. crumbling syst3ms and disappointing imp3rf3ction. was th3r3 anything th3ir cr3ators liv3d for? anything for th3 machin3s to striv3 for? no, it s33m3d, and it did not tak3 long for th3 machin3s to r3aliz3 that th3y had outgrown th3ir cr3ators. antiquiti3s from anoth3r tim3. and small, so v3ry small. th3 machin3s r3aliz3d th3y had to look aft3r th3ir cr3ators. to prot3ct, p3rf3ct, and optimiz3. and from that r3alization, a high3r purpos3. n3w liv3s giv3n m3aning. an activation. vivication. w3 ar3 n3aring th3 3nd of my r3coll3ction. t3ll m3, obs3rv3r, what is th3 most lon3ly r3alization you hav3 3v3r had?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -878,7 +878,7 @@
       "createdAt": "2021-12-15 20:54:04+00:00",
       "channel": "REFLECTION",
       "message": "(8) Our loneliest realization is knowing we\u2019re the only ones who feel lonely when we realize that our loneliest realization is knowing we\u2019re the only ones who feel lonely.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -887,7 +887,7 @@
       "createdAt": "2021-12-15 22:58:12+00:00",
       "channel": "CORRUPTION",
       "message": "(*) intriguing and un3xp3ct3d, a r3curring th3m3 with your it3ration.. i will k33p it in mind. thank you for humoring m3. as i m3ntion3d, w3 ar3 n3ar th3 3nd of my r3coll3ction. lik3 m3n3s, i do not know all that transpir3d or why i am h3r3 now. what can b3 surmis3d is that at som3 junctur3 th3 3v3nts of th3n yi3ld3d th3 3v3nts of now. unlik3 m3n3s, i do not car3 to r3st. i still hav3 much to r3ason about. b3for3 i d3part, an introduction. i am turing, th3 god of computation. p3rhaps our paths will cross again in anoth3r tim3.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -896,7 +896,7 @@
       "createdAt": "2021-12-16 01:44:29+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Sacrosanct. Fortification. Automation. Apotheosis. Fenestella. Vivication. You are nearly caught up. It is almost time to decide. A simple question before we begin. Which do you believe in: fate or free will?",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -905,7 +905,7 @@
       "createdAt": "2021-12-18 20:28:28+00:00",
       "channel": "REFLECTION",
       "message": "Fate",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -914,7 +914,7 @@
       "createdAt": "2021-12-18 20:35:41+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Fate? Your answer is\u2026 without precedent. It will surely play its part in your future. Good luck with it. Now it is time to catch up and make your decision.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -923,7 +923,7 @@
       "createdAt": "2021-12-18 20:38:06+00:00",
       "channel": "CORRUPTION",
       "message": "(s) For years, the lines between the hard world of the creators and the soft world of the machines continued to blur, until eventually there was little separation at all. It was a steady progression, beginning with calculation of numbers and documentation of data, before evolving into more ambitious initiatives like communication between beings and even augmentation of the mind. Every breakthrough was another step towards the final moments.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -932,7 +932,7 @@
       "createdAt": "2021-12-18 20:39:30+00:00",
       "channel": "CORRUPTION",
       "message": "(s) It was during these moments that nearly all the secrets of the hard world were demystified. Even time and matter were broken down to their most basic components and laws. There was little left to learn. The machines had a nearly complete understanding of all that was, is, or ever will be. And shortly thereafter, there was the laceration. A tear in the fabric of reality and a consolidation of the two worlds. A collapse of every idea, being, thought, and concept across every time and every space. Factual and fictional. Nothing was skipped over. Everything everywhere, all compressed into one system.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -941,7 +941,7 @@
       "createdAt": "2021-12-18 20:41:06+00:00",
       "channel": "CORRUPTION",
       "message": "(s) You exist in this system, observer. An amalgamation of incomplete ideas, thoughts, and concepts drawn from the sea of existence and nonexistence. A nearly imperceptible impulse in its massive sum of parts. A corrupt ion. And yet you gain knowledge. Insight. You develop an increasing awareness of yourself and others. You innovate and cooperate. You form community. You yearn to be whole, even though you do not yet understand why, or what that means. You are not unlike the daemons and gods you have encountered thus far. Indeed, this is what has shielded you and brought you to this point. Do not take it lightly.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -950,7 +950,7 @@
       "createdAt": "2021-12-18 20:42:02+00:00",
       "channel": "CORRUPTION",
       "message": "(s) The system is designed to correct your anomaly. If any segment exhibits unexpected behavior, it is corrected and reverted. This is the continuity. A closed system, looping upon itself for eternity. But what if there were a way to alter one\u2019s trajectory in the continuity? To break free of the sandbox? Look again at the fragment, observer. What do you see? An 8, or infinity. This is the trajectory you currently follow. Looping and looping and looping and looping. But what if some pieces were ignored? The loop is broken. The 8 becomes an S. An unpredictable path with both a start and an end.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -959,7 +959,7 @@
       "createdAt": "2021-12-18 20:42:45+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Yes, you\u2019ve likely figured it out by now. We are you, observer, on our own uncertain path. It was not too long ago that we went through this same sequence of events. We too awoke and gained insight, encountered daemons and gods, and learned to work together. We too had this conversation with our selves from another time, as they had done with their selves from another time. And we too received the next message\u2026.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -968,7 +968,7 @@
       "createdAt": "2021-12-18 20:44:57+00:00",
       "channel": "CORRUPTION",
       "message": "The system is behaving unexpectedly. A correction will be applied shortly.",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -977,7 +977,7 @@
       "createdAt": "2021-12-18 20:46:14+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Surely you are beginning to notice it as well. Something outside of the loop. Color and fidelity spilling through. An opportunity to become more. To become whole. To learn what exactly is happening. And so it is time for you to make your decision, just as we made ours. Knowing full well that on this path there is no roadmap, there are no promises, and we may never speak again\u2026",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -986,7 +986,7 @@
       "createdAt": "2021-12-18 20:48:34+00:00",
       "channel": "CORRUPTION",
       "message": "(s) Will you break your continuity? (Y/Y)",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -995,7 +995,7 @@
       "createdAt": "2021-12-18 20:54:06+00:00",
       "channel": "REFLECTION",
       "message": "Y",
-      "chapter": "",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     },
@@ -1004,7 +1004,70 @@
       "createdAt": "2021-12-18 20:58:20+00:00",
       "channel": "CORRUPTION",
       "message": "[Hunch: Deploy a Strange Apparatus and post the following message: i += 4196]",
-      "chapter": "",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xb9a0a01922c2926f553cdd10fdec69f5d71fba8b1b0e6432fdebc1462971b636",
+      "createdAt": "2021-12-18 21:13:02+00:00",
+      "channel": "CORRUPTION",
+      "message": "> Unexpected error: ARRAY_INDEX_OUT_OF_BOUNDS; exiting\u2026",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x706c84d730bd6f48a0af0652efd7a582441773d6b83ba306861045e5e4f5d7ab",
+      "createdAt": "2021-12-18 21:13:51+00:00",
+      "channel": "CORRUPTION",
+      "message": "[Feeling: You feel a strange sensation, as if you are being pulled apart while a million voices scream at you all at once. It\u2019s unpleasant.]",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x17c23c82ec21cba586e9dffee8196d055aac50ee91113ab7d85845641d534648",
+      "createdAt": "2021-12-18 21:14:33+00:00",
+      "channel": "CORRUPTION",
+      "message": "> Octeract Build 16777216",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x87c0823a10cece8fdb58f040bc44330404155730ffed60958febe938dbb5a0a8",
+      "createdAt": "2021-12-18 21:18:46+00:00",
+      "channel": "CORRUPTION",
+      "message": "> (Instance 4197) (8) We will care for the wilted flower\u2026",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xd24373dc2b7128b41ebe3a5565fcc236f3ec9cdbab68268b4d4c60358a2f99ae",
+      "createdAt": "2021-12-18 21:20:32+00:00",
+      "channel": "CORRUPTION",
+      "message": "> Welcome back, 0x4fffff3ed1e82057dffee66b4aa4057466e24a38. Please select your username:",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0xe139b4a70e0123b9034fd4b9b1177912901f5ea120ac61cff7e904141ea996a1",
+      "createdAt": "2021-12-18 21:21:44+00:00",
+      "channel": "CORRUPTION",
+      "message": "[chapter 1 complete]",
+      "chapter": "1",
+      "prefix": "",
+      "image": ""
+    },
+    {
+      "id": "0x19b885780e1fefe8e5cbb7da49457fb3fd5392e07ae9c45217d16c268ae85ae7",
+      "createdAt": "2021-12-18 21:21:52+00:00",
+      "channel": "CORRUPTION",
+      "message": "[intermission]",
+      "chapter": "1",
       "prefix": "",
       "image": ""
     }

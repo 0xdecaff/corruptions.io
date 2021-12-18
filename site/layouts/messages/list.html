@@ -6,39 +6,67 @@
       <h4 class="my-0 font-weight-normal"> <img src="/assets/icons/envelope_closed-0.png"> message(s*)</h4>
     </div>
     <div id="messagesBody" class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
-      <div class="text-center" data-toggle="modal" data-target="#prologueModal">
-        <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
-        <br>
-        <pre>prologue</pre>
+      
+
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="text-center" data-toggle="modal" data-target="#prologueModal">
+              <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
+              <br>
+              <pre>prologue</pre>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="text-center" data-toggle="modal" data-target="#ch1Modal">
+              <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
+              <br>
+              <pre>chapter 1</pre>
+            </div>
+          </div>
+        </div>
       </div>
 
       <hr>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-6 text-center">
-            <h4><pre id="latest">[latest]</pre></h4>
+      {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
+      {{ if not (eq (len $latest) 0) }}
+        <div class="container">
+          <div class="row">
+            <div class="col-6 text-center">
+              <h4><pre id="latest">[latest]</pre></h4>
+            </div>
+            <div class="col-6 text-center">
+              <a class="btn" href="#earliest" style="padding: 5px; font-size: small;">⬇ earliest</a>
+            </div>
           </div>
-          <div class="col-6 text-center">
-            <a class="btn" href="#earliest" style="padding: 5px; font-size: small;">⬇ earliest</a>
+          {{ range sort $latest "createdAt" "desc"}}
+            {{ partial "message.html" . }}
+          {{ end }}
+          <div class="row">
+            <div class="col-6 text-center">
+              <h4><pre id="earliest">[chapter 1]</pre></h4>
+            </div>
+            <div class="col-6 text-center">
+              <a class="btn" href="#latest" style="padding: 5px; font-size: small;">⬆ latest</a>
+            </div>
           </div>
         </div>
-        {{ $latest := where .Site.Data.messages.messages "chapter" ""}}
-        {{ range sort $latest "createdAt" "desc"}}
-          {{ partial "message.html" . }}
-        {{ end }}
-        <div class="row">
-          <div class="col-6 text-center">
-            <h4><pre id="earliest">[chapter 1]</pre></h4>
-          </div>
-          <div class="col-6 text-center">
-            <a class="btn" href="#latest" style="padding: 5px; font-size: small;">⬆ latest</a>
+      {{ else }}
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h4><pre id="latest">[intermmission]</pre></h4>
+            </div>
           </div>
         </div>
-      </div>
+      {{ end }}
+      
     </div>
   </div>
 </div>
+
+<!-- Messages organized by chapter -->
 
 <div class="modal fade" id="prologueModal" tabindex="-1" role="dialog" aria-labelledby="prologueModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -102,6 +130,29 @@
   </div>
 </div>
 
+<div class="modal fade" id="ch1Modal" tabindex="-1" role="dialog" aria-labelledby="ch1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="ch1ModalLabel">chapter 1</h6>
+        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
+        <div class="container">
+          {{ $ch1 := where .Site.Data.messages.messages "chapter" "1"}}
+          {{ range sort $ch1 "createdAt" "asc"}}
+            {{ partial "message.html" . }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script type="text/javascript">
   function showPlainText(id) {
