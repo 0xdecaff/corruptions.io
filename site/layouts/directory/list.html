@@ -8,25 +8,25 @@
         <div class="card-body windows-scrollbar" style="overflow-y: scroll; height: 75vh;">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3" align="center">
+                    <div class="col" align="center">
                         <img type="button" data-toggle="modal" data-target="#leaderboardModal" src="/assets/icons/globe_map-0.png" style="width: 100px">
                         <p>global_leaderboard</p>
                     </div>
-                    <div class="col-xl-3" align="center">
+                    <div class="col" align="center">
                         <img type="button" data-toggle="modal" data-target="#divisionsModal" src="/assets/icons/network_three_pcs-0.png" style="width: 100px">
                         <p>divisions</p>
                     </div>
-                    <div class="col-xl-3" align="center">
+                    <div class="col" align="center">
                         <img type="button" data-toggle="modal" data-target="#daoModal" src="/assets/icons/keys-5.png" style="width: 100px">
                         <p>dao_multisig</p>
                     </div>
                     {{ range sort .Site.Data.deviation_registry.deviations ".index" }}
-                    <div class="col-xl-3" align="center">
+                    <div class="col" align="center">
                         <img type="button" data-toggle="modal" data-target="#{{.name}}Modal" src="/assets/icons/directory_closed-5.png" style="width: 100px">
                         <p>{{.name}}</p>
                     </div>
                     {{ end }}
-                    <div class="col-xl-3" align="center">
+                    <div class="col" align="center">
                         <img type="button" data-toggle="modal" data-target="#comingSoonModal" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
                         <p>next_drop</p>
                     </div>
