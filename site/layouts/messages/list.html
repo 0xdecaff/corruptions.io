@@ -10,14 +10,14 @@
 
       <div class="container">
         <div class="row">
-          <div class="col text-center">
+          <div id="chapterIcon0" class="col text-center">
             <div class="text-center" data-toggle="modal" data-target="#prologueModal">
               <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
               <br>
               <pre>prologue</pre>
             </div>
           </div>
-          <div class="col text-center">
+          <div id="chapterIcon1" class="col text-center">
             <div class="text-center" data-toggle="modal" data-target="#ch1Modal">
               <img type="button" src="/assets/icons/help_book_cool-4.png" style="width: 100px">
               <br>
@@ -155,6 +155,33 @@
 </div>
 
 <script type="text/javascript">
+  // hide chapters by default, then show the ones passed in through query params
+  // if no query string, show all
+  const totalChapters = 2;
+  for (i = 0; i < totalChapters; i++) {
+    document.getElementById(`chapterIcon${i}`).hidden = true;
+  }
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  let chaptersSpecified = false;
+  for (const [key, value] of urlSearchParams.entries()) {
+    if (key !== "chapters") {
+      continue;
+    }
+    chaptersSpecified = true;
+    const chapterIcon = document.getElementById(`chapterIcon${value}`);
+    if (!chapterIcon) {
+      continue;
+    }
+    chapterIcon.hidden = false;
+  }
+  if (chaptersSpecified) {
+    document.getElementById("navbar").hidden = true;
+  } else {
+    for (i = 0; i < totalChapters; i++) {
+      document.getElementById(`chapterIcon${i}`).hidden = false;
+    }
+  }
+
   function showPlainText(id) {
     document.getElementById(`plaintext${id}`).hidden = false;
     document.getElementById(`base64${id}`).hidden = true;
